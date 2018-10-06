@@ -1,0 +1,8 @@
+    </div>
+
+    <div id="footer">
+        tel. +48 12 663 20 82 | e-mail: makyla@chemia.uj.edu.pl
+    </div>
+</div>
+</body>
+</html>

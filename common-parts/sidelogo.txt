@@ -1,0 +1,14 @@
+        <div class="sidelogo">
+
+           <a href="https://www.uj.edu.pl/">
+              <img width=30% height=30% src="style/images/uj_logo.jpeg"/>
+              <!--img width=40% height=40% src="style/images/uj_logo_blue.gif"/-->
+           </a>
+
+           <br/>
+
+           <!--a href="www.chemia.uj.edu.pl">
+              <img width=5% height=5% src="style/images/uj_logo.jpeg"/> WYDZIAŁ CHEMII
+           </a-->
+
+        </div>
