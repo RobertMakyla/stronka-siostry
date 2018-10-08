@@ -131,14 +131,16 @@ main () {
                   "badania.html:Badania"
                   "publikacje.html:Publikacje"
                   "dydaktyka.html:Dydaktyka"
-                  "bhp.html:Oświadczenie BHP" )
+                  "bhp.html:Oświadczenie BHP"
+                  "lab.html:Laboratorium" )
 
 
    staticPagesMap=( "index.html:Kontakt"
                   "badania.html:Badania"
                   "publikacje.html:Publikacje"
                   "dydaktyka.html:Dydaktyka"
-                  "bhp.html:Oświadczenie BHP" )
+                  "bhp.html:Oświadczenie BHP"
+                  "lab.html:Laboratorium" )
 
    # generating main pages
    for mainPage in "${staticPagesMap[@]}" ; do
