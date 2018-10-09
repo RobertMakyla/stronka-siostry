@@ -6,6 +6,7 @@ commonsDir=common-parts
 styleDir=style
 targetDir=./target
 docsDir=docs
+labHtml=pages/lab.html
 
 
 ####################################  Declaring Maps  #################################
@@ -70,9 +71,10 @@ addPageContent () {
    fi
 }
 
-copyStyleAndDocsAndImages () {
+copyStyleAndDocsAndImagesAndLabPage () {
    cp -fr ${styleDir} ${targetDir}
    cp -fr ${docsDir} ${targetDir}
+   cp -fr ${labHtml} ${targetDir}
 }
 
 verifyHtmlSyntax () {
@@ -131,16 +133,14 @@ main () {
                   "badania.html:Badania"
                   "publikacje.html:Publikacje"
                   "dydaktyka.html:Dydaktyka"
-                  "bhp.html:Oświadczenie BHP"
-                  "lab.html:Laboratorium" )
+                  "bhp.html:Oświadczenie BHP" )
 
 
    staticPagesMap=( "index.html:Kontakt"
                   "badania.html:Badania"
                   "publikacje.html:Publikacje"
                   "dydaktyka.html:Dydaktyka"
-                  "bhp.html:Oświadczenie BHP"
-                  "lab.html:Laboratorium" )
+                  "bhp.html:Oświadczenie BHP" )
 
    # generating main pages
    for mainPage in "${staticPagesMap[@]}" ; do
@@ -149,7 +149,7 @@ main () {
        generatePage "${filename}" "${title}"
    done
 
-   copyStyleAndDocsAndImages
+   copyStyleAndDocsAndImagesAndLabPage
    
    verifyHtmlSyntax
 }
