@@ -205,7 +205,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .sidelogo
 { float: right;
-  width: 210px;
+  width: 0px; /* usuniecie side logo po prawej stronie*/
   text-align: center;
   padding: 10px 10px 110px 20px;}
 
