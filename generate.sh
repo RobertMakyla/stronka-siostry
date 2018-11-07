@@ -66,7 +66,7 @@ addPageContent () {
       cat ${srcParentDir}/${srcFilename} >> ${dstParentDir}/${dstFilename}
    else
       echo "Adding to ${dstParentDir}/${dstFilename} empty page content"
-      echo "        <h1>${title}</h1>"      >> ${dstParentDir}/${dstFilename}
+      echo "        <h2>${title}</h2>"      >> ${dstParentDir}/${dstFilename}
       echo "        <p>Strona w budowie</p>" >> ${dstParentDir}/${dstFilename}
    fi
 }
