@@ -2,7 +2,6 @@
 
            <!--a href="https://www.uj.edu.pl/">
               <img width=30% height=30% src="style/images/uj_logo.jpeg"/>
-              <!--img width=40% height=40% src="style/images/uj_logo_blue.gif"/-->
            </a-->
 
            <!--br/-->
