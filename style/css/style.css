@@ -182,9 +182,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #site_content
 { width: 100%;   /* usuniecie marginesów po prawej i lewej */
   overflow: hidden;
+  height:100%;
+  min-height:100%;
   margin: 0 auto 0 auto;
   padding: 20px 0px 20px 0px;
-  background: #FFF;} 
+  background: #FFF;}
 
 .sidebar
 { float: left;
@@ -249,7 +251,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #24559e;
   color: #FFF;
   text-transform: uppercase;
-  letter-spacing: 0.1em;}
+  letter-spacing: 0.1em;
+  }
 
 #footer a
 { color: #FFF;
