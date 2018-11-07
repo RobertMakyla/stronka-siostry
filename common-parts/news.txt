@@ -1,4 +1,4 @@
-<h3>Ostatnio dodane :</h3>
+<!--h3>Ostatnio dodane :</h3>
 
 <h4>Dydaktyka</h4>
 <p>
@@ -6,7 +6,7 @@
   <a href="dydaktyka.html#news-number-1">Czytaj więcej</a>
 </p>
 
-<br/>
+<br/-->
 
 
 
