@@ -183,7 +183,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { width: 100%;   /* usuniecie marginesów po prawej i lewej */
   overflow: hidden;
   height:100%;
-  min-height:100%;
+  min-height:250px;
   margin: 0 auto 0 auto;
   padding: 20px 0px 20px 0px;
   background: #FFF;}
