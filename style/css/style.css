@@ -122,9 +122,9 @@ ol li
        1px 1px 0 #000;
 }
 
-.yellow-news table tr td {
-  bgcolor: "yellow" ;
-  padding: 0 0 15px 0;
+.yellow-news {
+  background-color: #FFFF99 ;
+  padding: 5px 15px 15px 15px;
   line-height: 1.5em;
 }
 
